@@ -37,10 +37,10 @@ Ubuntu 16.04 + Python 3.x
 
 导入所有xxxweb.py模块，并进行循环遍历，逐个抓取并返回信息。
 
-### 4. txt2html.py
+#### 4. txt2html.py
 
 将收集到信息封装为一个单独HTML文件
 
-### 5. seng_msg.py
+#### 5. seng_msg.py
 
-将HTML文件通过微信,发送给自己.
+将HTML文件通过微信发送给自己
