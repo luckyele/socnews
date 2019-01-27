@@ -4,10 +4,12 @@
 from bs4 import BeautifulSoup
 import os 
 import pdb
+import time
+
 
 FILE = 'msg.txt'
 HTML = 'base.html'
-HTML2 = 'ahcnews.html'
+HTML2 = 'ahcnews%s.html'%time.strftime("%Y%m%d")
 
 def get_msg(f):
 	i = 0

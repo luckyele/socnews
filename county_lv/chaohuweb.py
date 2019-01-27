@@ -5,7 +5,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import requests
 import sys
-# sys.path.append("../")
+sys.path.append("../")
 
 from webmonkey import Webmonkey
 
