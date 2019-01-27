@@ -1,6 +1,13 @@
 #! /usr/lib/python
 #coding:utf-8
 
+import sys
+
+sys.path.append('./city_lv/')
+sys.path.append('./state_lv/')
+sys.path.append('./province_lv')
+sys.path.append('./county_lv')
+
 import mctweb		as mct
 import anhuiweb 	as ah
 import hefeiweb		as hf
