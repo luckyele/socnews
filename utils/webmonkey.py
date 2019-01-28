@@ -42,6 +42,8 @@ class Webmonkey:
 		except:
 			bsObj = BeautifulSoup(r.text, "html.parser")
 		
+		if DEBUG:
+			print(bsObj)
 		return bsObj
 	
 	def print_msg(self, msg):

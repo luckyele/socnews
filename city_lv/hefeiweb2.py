@@ -3,6 +3,7 @@
 
 
 from bs4 import BeautifulSoup
+import requests
 
 import sys
 import os
@@ -31,7 +32,7 @@ class Web(Webmonkey):
 			"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
                         }
 		res = requests.get(self.url, headers=header)
-		obj = BeautifulSoup(res.text.encode("iso-8859-1").decode('utf-8'), "html.parser")		
+		obj = BeautifulSoup(res.text.encode("iso-8859-1").decode('utf-8'), "html.parser")
 		return obj
 
 	def get_newest_message(self, obj):

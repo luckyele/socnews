@@ -2,11 +2,17 @@
 #coding:utf-8
 
 import sys
+import os
+import platform
 
-sys.path.append('./city_lv/')
-sys.path.append('./state_lv/')
-sys.path.append('./province_lv')
-sys.path.append('./county_lv')
+if platform.system() == "windows":
+	os.chdir(os.path.dirname(os.path.realpath(__file__)))
+	
+sys.path.append('../city_lv/')
+sys.path.append('../state_lv/')
+sys.path.append('../province_lv/')
+sys.path.append('../county_lv/')
+sys.path.append('../utils/')
 
 import mctweb		as mct
 import anhuiweb 	as ah

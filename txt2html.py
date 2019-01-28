@@ -6,6 +6,10 @@ import os
 import pdb
 import time
 
+import sys
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append('../utils/')
 
 FILE = 'msg.txt'
 HTML = 'base.html'
