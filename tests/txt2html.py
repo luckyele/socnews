@@ -40,7 +40,7 @@ def write_html(msg):
 	
 	soup = BeautifulSoup(f.read(), "html.parser")
 	f.close()
-	original_tag = soup.find("div", class_="box4")
+	original_tag = soup.find("div", class_="box")
 
 	for title, url, date in msg:
 		new_li_tag = soup.new_tag("li")

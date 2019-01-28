@@ -13,6 +13,7 @@ sys.path.append('../state_lv/')
 sys.path.append('../province_lv/')
 sys.path.append('../county_lv/')
 sys.path.append('../utils/')
+sys.path.append('../libraries/')
 
 import mctweb		as mct
 import anhuiweb 	as ah
@@ -32,6 +33,7 @@ import tonglingweb 	as tl
 import bengbuweb 	as bb
 import wuhuweb 		as wh
 import suzhouweb 	as szh
+import ahslibweb	as ahslib
 
 def scheduling(p_area):
 	web = p_area.Web()
@@ -45,7 +47,8 @@ def scheduling(p_area):
 def test():
 	msgs = [ah,\
 			hf, bzh, szh, bb,   fy,  hn,  chuzh, \
-			luan, msh, wh,  tl,  chzh, anq, xch, hsh]
+			luan, msh, wh,  tl,  chzh, anq, xch, hsh,\
+			ahslib]
 
 	for p_area in msgs:
 		scheduling(p_area)

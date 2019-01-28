@@ -4,12 +4,14 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import requests
+import json
+import re
 
 import sys
 import os
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
-sys.path.append("../")
+sys.path.append("../utils/")
 
 from webmonkey import Webmonkey
 
@@ -17,34 +19,36 @@ class Web(Webmonkey):
 	
 	def __init__(self):
 		# define the entrance and name of main website
-		self.url = "http://www.ahlib.com/v-AhLibWeb-zh_CN-/AhLibWeb/mian.w?mainid=4"
+		self.url = "http://www.ahlib.com/baas/ahlibWeb/AqLibApi/getListByNav"
 		self.website = "http://www.ahlib.com/"
 		self.name = '[安徽省图书馆]'
 		super().__init__(self.url, self.website)
 
 	def get_obj(self):
-		from selenium import webdriver
-		try:
-			browser = webdriver.Chrome()
-		except e:
-			return
+		para = {'page':1,'PageNum':15, 'RootNav':1306}
+		rels = []
+		surl = ""
+		header = {
+			"Accept":"application/json, text/javascript, */*; q=0.01",
+			"Accept-Encoding":"gzip, deflate",
+			"Accept-Language":"zh-CN,en-US;q=0.7,en;q=0.3",
+			"Connection":"keep-alive",
+			"Content-Length":"39",
+			"Content-Type":"application/json",
+			"Host":"www.ahlib.com",
+			"Referer":"http://www.ahlib.com/v-AhLibWeb-zh_CN-/AhLibWeb/mian.w?mainid=4",
+			"User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64;rv:64.0) Gecko/20100101 Firefox/64.0",
+			"X-Requested-With":"XMLHttpRequest",
+		}
+		res = requests.post(self.url, headers=header, data=json.dumps(para))
 		
-		browser.get(self.url)
-		r = browser.page_source
-		print(r)
-		obj = BeautifulSoup(r.encode("iso-8859-1").decode('utf-8'), "html.parser")
-		return obj
-	
+		print(len(json.loads(res.text)))
+		if res.status_code == '200':
+			print(json.loads(res))
+		return rels
+
 	def get_newest_message(self, obj):
-		msg = []
-		label = obj.find("label", {"xid":"label1"})
-		print(label)
-		title = tr.a['title']
-		href = tr.a["href"]
-		time = tr.find("span", {"class":"right date"}).string
-		msg.append((time, self.name + title, href))
-		#print(msg)
-		return msg
+		return obj 
 		
 def test3():
 	web = Web()
