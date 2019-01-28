@@ -68,4 +68,4 @@ if __name__ == "__main__":
 	f = open(FILE,"r")
 	m = get_msg(f)
 	write_html(m)
-	send_msg(HTML2)
+	#send_msg(HTML2)

@@ -20,13 +20,12 @@ class Web(Webmonkey):
 		self.website = "http://swhj.hefei.gov.cn/"
 		self.name = "[合肥市]"
 		super().__init__(self.url, self.website)
-
 	
 	def get_cookies(self):
 		from selenium import webdriver
 		try:
 			browser = webdriver.Chrome()
-		except e:
+		except:
 			return
 		
 		browser.get(self.url)
