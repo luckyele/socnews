@@ -1,5 +1,7 @@
-import itchat
+#!/usr/bin/python
+#coding:utf-8
 
+import itchat
 
 def send_msg(f):
 

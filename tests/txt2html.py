@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import os 
 import pdb
 import time
+import itchat
 
 import sys
 import os
@@ -12,7 +13,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append('../utils/')
 
 FILE = 'msg.txt'
-HTML = 'base.html'
+HTML = '../templates/base.html'
 HTML2 = 'ahcnews%s.html'%time.strftime("%Y%m%d")
 
 def get_msg(f):
@@ -28,7 +29,7 @@ def get_msg(f):
 			i = 1
 		else:
 			url = line.strip('\n')
-			msg.append((title,url,date))
+			msg.append((title, url, date))
 			i = 0
 	f.close()
 	return msg
@@ -57,10 +58,14 @@ def write_html(msg):
 	h.write(str(soup))
 	h.close()
 
-
+def send_msg(f):
+	itchat.auto_login()
+	itchat.send("@fil@%s"%f)
+	itchat.logout()
 
 if __name__ == "__main__":
 	
 	f = open(FILE,"r")
 	m = get_msg(f)
 	write_html(m)
+	send_msg(HTML2)
