@@ -2,6 +2,12 @@
 #coding:utf-8
 
 from bs4 import BeautifulSoup
+
+import sys
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append("../")
+
 from webmonkey import Webmonkey
 
 class Web(Webmonkey):
