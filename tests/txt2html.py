@@ -13,7 +13,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append('../utils/')
 
 FILE = 'msg.txt'
-HTML = '../templates/base.html'
+HTML = '../templates/base_qzone.html'
 HTML2 = 'ahcnews%s.html'%time.strftime("%Y%m%d")
 
 def get_msg(f):
@@ -37,17 +37,27 @@ def get_msg(f):
 def write_html(msg):
 	f = open(HTML,"r")
 	h = open(HTML2, "w")
-	
+
+	li_attrs = "list-style:none"
+	a_attrs = "text-decoration:none;color:#4A4A4A;"
+	a_hover_attrs = "text-decoration:underline;color:#6b6b6b;"
+
+
 	soup = BeautifulSoup(f.read(), "html.parser")
 	f.close()
 	original_tag = soup.find("div", class_="box")
 
 	for title, url, date in msg:
 		new_li_tag = soup.new_tag("li")
+		new_li_tag['style'] = li_attrs
+
 		new_a_tag = soup.new_tag("a", href=url)
+		new_a_tag['style'] = a_attrs
+
 		new_span_tag = soup.new_tag("span")
 		new_span_tag.string = date
 		new_a_tag.string = title
+		
 		new_li_tag.append(new_a_tag)
 		new_li_tag.a.insert_after(new_span_tag)
 		original_tag.append(new_li_tag)
