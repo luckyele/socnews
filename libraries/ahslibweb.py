@@ -5,11 +5,9 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import requests
 import json
-import re
 
 import sys
 import os
-
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append("../utils/")
 
@@ -46,7 +44,7 @@ class Web(Webmonkey):
 			time = a['AddTime'][0:10]
 			title = a['title']
 			url = surl + str(a['id'])
-			rels.append((time, title, url))
+			rels.append((time, self.name+title, url))
 		return rels
 
 	def get_newest_message(self, obj):

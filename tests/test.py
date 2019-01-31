@@ -5,7 +5,7 @@ import sys
 import os
 import platform
 
-if platform.system() == "windows":
+if platform.system() == "Windows":
 	os.chdir(os.path.dirname(os.path.realpath(__file__)))
 	
 sys.path.append('../city_lv/')
@@ -46,7 +46,7 @@ def scheduling(p_area):
 
 def test():
 	msgs = [ah,\
-			hf, bzh, szh, bb,   fy,  hn,  chuzh, \
+			bzh, szh, bb,   fy,  hn,  chuzh, \
 			luan, msh, wh,  tl,  chzh, anq, xch, hsh,\
 			ahslib]
 
