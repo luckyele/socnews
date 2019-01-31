@@ -23,7 +23,7 @@ class Web(Webmonkey):
 	def get_newest_message(self, obj):
 		msg = []
 		tr = obj.find("ul", {"class":"doc_list list-5157383"})
-		title = tr.a['title']
+		title = tr.a['title'].replace('\n','')
 		href = tr.a["href"]
 		time = tr.find("span", {"class":"right date"}).string
 		msg.append((time, self.name+title, href))

@@ -39,8 +39,8 @@ def write_html(msg):
 	h = open(HTML2, "w")
 
 	li_attrs = "list-style:none"
-	a_attrs = "text-decoration:none;color:#4A4A4A;"
-	a_hover_attrs = "text-decoration:underline;color:#6b6b6b;"
+	a_attrs = "text-decoration:none;color:#4A4A4A"
+	a_hover_attrs = "text-decoration:underline;color:#6b6b6b"
 
 
 	soup = BeautifulSoup(f.read(), "html.parser")

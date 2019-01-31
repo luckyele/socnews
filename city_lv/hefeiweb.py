@@ -28,7 +28,17 @@ class Web(Webmonkey):
 		except:
 			return
 		
-		browser.get(self.url)
+		header={
+			"Host": "swhj.hefei.gov.cn",
+			"Connection": "keep-alive",
+			"Upgrade-Insecure-Requests": "1",
+			"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36",
+			"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+			"Referer": "http://swhj.hefei.gov.cn/4964/4965/",
+			"Accept-Encoding": "gzip, deflate",
+			"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+			}
+		browser.get(self.url, headers=header)
 		browser.refresh()
 		cookies = browser.get_cookies()
 		s = ""
@@ -47,7 +57,8 @@ class Web(Webmonkey):
 			"Referer": "http://swhj.hefei.gov.cn/4964/4965/",
 			"Accept-Encoding": "gzip, deflate",
 			"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-			"Cookie":cookies}
+			"Cookie":cookies,
+			}
 		
 		res = requests.get(self.url, headers=header)
 		obj = BeautifulSoup(res.text.encode("iso-8859-1").decode('utf-8'), "html.parser")
