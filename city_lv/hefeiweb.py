@@ -4,6 +4,7 @@
 
 from bs4 import BeautifulSoup
 import requests
+import platform
 
 import sys
 import os
@@ -24,7 +25,7 @@ class Web(Webmonkey):
 	def get_cookies(self):
 		from selenium import webdriver
 		try:
-			browser = webdriver.Chrome()
+			browser = webdriver.Firefox()
 		except:
 			return
 		
@@ -38,17 +39,32 @@ class Web(Webmonkey):
 	
 	def get_obj(self):
 		cookies = self.get_cookies()
-		header={
-			"Host": "swhj.hefei.gov.cn",
-			"Connection": "keep-alive",
-			"Upgrade-Insecure-Requests": "1",
-			"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36",
-			"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-			"Referer": "http://swhj.hefei.gov.cn/4964/4965/",
-			"Accept-Encoding": "gzip, deflate",
-			"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-			"Cookie":cookies}
-		
+		if platform.system() == 'Windows':
+			header={
+				"Host": "swhj.hefei.gov.cn",
+				"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/65.0",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+				"Accept-Encoding": "gzip, deflate",
+				"Referer": "http://swhj.hefei.gov.cn/",
+				"DNT": "1",
+				"Connection": "keep-alive",
+				"Upgrade-Insecure-Requests": "1",
+				"Cache-Control": "max-age=0",
+				"Cookie":cookies,
+			}
+		else:
+			header = {
+				"Host": "swhj.hefei.gov.cn",
+				"Connection": "keep-alive",
+				"Upgrade-Insecure-Requests": "1",
+				"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+				"Referer": "http://swhj.hefei.gov.cn/4964/4965/",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
+				"Cookie":cookies
+			}
 		res = requests.get(self.url, headers=header)
 		obj = BeautifulSoup(res.text.encode("iso-8859-1").decode('utf-8'), "html.parser")
 		return obj
