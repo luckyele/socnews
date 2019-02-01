@@ -5,7 +5,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import requests
 
-DEBUG = 0
+DEBUG = 1
 
 class Webmonkey:
 		

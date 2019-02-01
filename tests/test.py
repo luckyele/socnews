@@ -17,7 +17,7 @@ sys.path.append('../libraries/')
 
 import mctweb		as mct
 import anhuiweb 	as ah
-import hefeiweb		as hf
+#import hefeiweb		as hf
 import bozhouweb 	as bzh
 import chuzhouweb 	as chuzh
 import fuyangweb2 	as fy

@@ -12,6 +12,8 @@ sys.path.append("../utils/")
 
 from webmonkey import Webmonkey
 
+DEBUG = 1
+
 class Web(Webmonkey):
 	
 	def __init__(self):
@@ -21,7 +23,22 @@ class Web(Webmonkey):
 		self.name = "[合肥市]"
 		super().__init__(self.url, self.website)
 
+	def get_cookie(self):
+		from selenium import webdriver
+		cookies = {}
+		try:
+			brower = webdriver.Chrome()
+		except:
+			return
+		brower.get(self.url)
+		cookies = brower.get_cookies()
+		s = ""
+		for i in cookies:
+			s += "%s=%s;"%(i['name'], i['value'])
+		return s
+		
 	def get_obj(self):
+		cookie = self.get_cookie()
 		header={
 			"Host": "swhj.hefei.gov.cn",
 			"Connection": "keep-alive",
@@ -31,8 +48,15 @@ class Web(Webmonkey):
 			"Referer": "http://swhj.hefei.gov.cn/4964/4965/",
 			"Accept-Encoding": "gzip, deflate",
 			"Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
-                        }
+			"Cookies":cookie,
+		}
 		res = requests.get(self.url, headers=header)
+		if DEBUG:
+			print(res.request.headers)
+			print(res.header)
+			if res.status_code != 200:
+				return None
+		
 		obj = BeautifulSoup(res.text.encode("iso-8859-1").decode('utf-8'), "html.parser")
 		return obj
 

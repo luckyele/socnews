@@ -1,0 +1,640 @@
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://www.ahwh.gov.cn/zwgk/bmdt/
+200
+[**DEBUG**] UTF-8
+[**DEBUg**] http://www.bzwhly.gov.cn/zw/html/type/list-0101-1.html
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgxlj.ahsz.gov.cn/14245213.html
+200
+[**DEBUG**] utf-8
+[**DEBUg**] http://wgxj.bengbu.gov.cn/sitefiles/services/cms/page.aspx?s=1&n=9
+200
+[**DEBUG**] utf-8
+[**DEBUg**] http://wgx.fy.gov.cn/content/channel/5c3d45bf171ed55346923ce0/
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgx.huainan.gov.cn/13383110.html
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgxj.chuzhou.gov.cn/5157383.html
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgxj.luan.gov.cn/content/channel/58072dcf1ea8acbc0800003e/
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wlw.mas.gov.cn/4716617.html
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>县区动态_马鞍山市文化和旅游委员会</title>
+<meta content="马鞍山市文化和旅游委员会" name="keywords"/>
+<meta content="马鞍山市文化和旅游委员会" name="description"/>
+<meta content="马鞍山市文化和旅游委员会" name="SiteName"/>
+<meta content="http://wlw.mas.gov.cn" name="SiteDomain"/>
+<meta content="3405000044" name="SiteIDCode"/>
+<meta content="县区动态" name="ColumnName"/>
+<meta content="县区动态" name="ColumnType"/>
+<meta content="" name="ColumnDescription"/>
+<meta content="" name="ColumnKeywords"/>
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/assets/css/core.min.css" rel="stylesheet" type="text/css"/>
+<link href="/css/lonsun.css" rel="stylesheet" type="text/css"/>
+<script src="/assets/js/common.min.js?jt=false" type="text/javascript"></script>
+<style>
+#m1, #m2 {
+	padding-bottom: 32767px !important;
+	margin-bottom: -32767px !important;
+}
+@media all and (min-width: 0px) {
+#m1, #m2 {
+padding-bottom: 0 !important;
+margin-bottom: 0 !important;
+}
+#m1:before, #m2:before {
+content: '[DO NOT LEAVE IT IS NOT REAL]';
+display: block;
+background: inherit;
+padding-top: 32767px !important;
+margin-bottom: -32767px !important;
+height: 0;
+}
+</style>
+</head>
+<body onload="Rleft()">
+<div class="ind_body">
+<div class="topcon">
+<div class="w1200 clearfix">
+<div class="fl top_logo">
+<ul class="clearfix">
+<script>var ll_4716620 = 1;</script><script charset="utf-8" src="http://wlw.mas.gov.cn/4716544/4716620.js?num=1"></script>
+</ul>
+</div>
+<div class="fr secbox">
+<form action="" data-validator-option="{msgClass:'n-bottom'}" method="get">
+<ul class="clearfix">
+<span class="gl"></span>
+<li class="ss1"><input class="search-keywords srkcss" data-rule="关键词:required;required2" data-rule-required2="[/^[0-9a-zA-z\u0391-\uFFE5\s\[\]\(\),.《》]+$/, '关键词不允许含有特殊字符']" maxlength="30" name="keywords" placeholder="请输入需要搜索的关键词" size="24" type="text" value=""/></li>
+<input name="all" type="hidden" value="0"/>
+<li class="ss2"><input class="topsearchbtn" data-siteid="4697368" data-type="all" name="input" type="button" value="搜站群"/></li>
+<li class="sss"><input class="topsearchbtn" data-siteid="4716544" name="input" type="button" value="搜本站"/></li>
+<li class="ss3"><a href="http://www.mas.gov.cn/site/tpl/13414572" target="_blank">诗城智搜</a></li>
+<li class="dl"><a href="http://www.mas.gov.cn/member/login/4697368" target="_blank">会员登录</a></li>
+<li class="ss4">
+<a class="xxgk_nav">首页 <span class="ico"></span></a>
+<div class="xxgk_navmu">
+<ul>
+<li><a href="http://www.mas.gov.cn/4697369.html" target="_blank">魅力诗城</a></li>
+<li><a href="http://www.mas.gov.cn/public/index.html" target="_blank">信息公开</a></li>
+<li><a href="http://mas.ahzwfw.gov.cn/main/main.do?method=index" target="_blank">网上服务</a></li>
+<li><a href="http://www.mas.gov.cn/4697372.html" target="_blank">互动交流</a></li>
+<li><a href="http://www.mas.gov.cn/4697373.html" target="_blank">解读回应</a></li>
+<li><a href="http://www.mas.gov.cn/content/column/4697374" target="_blank">数据开放</a></li>
+<li><a href="http://www.mas.gov.cn/4697375.html" target="_blank">移动门户</a></li>
+<li><a href="http://www.mas.gov.cn/4697376.html" target="_blank">站群信息</a></li>
+</ul>
+<span class="ico"></span>
+</div>
+</li>
+</ul>
+</form>
+</div>
+</div>
+</div>
+<div class="header">
+<div class="banner">
+<div class="flash" id="flash01">
+<div class="pic">
+<ul>
+<script>var ll_4716621 = 5;</script><script charset="utf-8" src="http://wlw.mas.gov.cn/4716544/4716621.js?num=5"></script>
+</ul>
+</div>
+</div>
+<script>myFocus.set({id: 'flash01', pattern: 'mF_ladyQ', thumbShowNum: 5, width: 1200, height: 180})</script>
+<div class="logo">
+<ul class="clearfix"><script>var ll_4716622 = 1;</script><script charset="utf-8" src="http://wlw.mas.gov.cn/4716544/4716622.js?num=1"></script></ul>
+</div>
+</div>
+<div class="menubox">
+<ul class="clearfix">
+<li class="first off"><a href="/index.html">网站首页</a></li>
+<li class="on"><a href="/4716604.html">新闻资讯</a></li>
+<li><a href="http://zwgk.mas.gov.cn/opennessContent/?branch_id=57a3df762c262ea9a00aae87" target="_blank">信息公开</a></li>
+<li><a href="http://zwgk.mas.gov.cn/opennessContent/?branch_id=57a3df762c262ea9a00aae87&amp;column_code=40400" target="_blank">解读回应</a></li>
+<li><a href="http://mas.ahzwfw.gov.cn/main/main.do?method=deptw&amp;condition=34050011070000000000" target="_blank">网上服务</a></li>
+<li class="off"><a href="/4716692.html">互动交流</a></li>
+<li class="off"><a href="/4716607.html">政策文件</a></li>
+<li class="off"><a href="/4716605.html">文化服务</a></li>
+<li class="last off"><a href="/4716610.html">旅游质检</a></li>
+</ul>
+</div>
+</div>
+<script>
+$(function(){
+
+$('.topsearchbtn').off().on('click',function(){
+	var _this = $(this),
+		_siteId = _this.data('siteid'),
+		_type = _this.data("type"),
+		_form = _this.closest('form');
+
+		var url = '/site/search/'+_siteId;
+	   _form.attr('target','_self');
+
+		if (_type == "all") {
+			$("[name=all]",_form).val(1);
+			_form.attr('target','_blank');
+			 url = 'http://www.mas.gov.cn/site/search/'+_siteId;
+		}else {
+			$("[name=all]",_form).val(0);
+		}
+	_form.attr('action', url);
+	_form.submit();
+});
+
+  $(".secbox .ss4").hover(
+	  function () {
+		  $(this).children('.xxgk_navmu').attr('style','display:block');
+		  $(this).children('.xxgk_nav').addClass("active");
+	  },
+	  function () {
+		  $(this).children('.xxgk_navmu').hide();
+		  $(this).children('.xxgk_nav').removeClass("active");
+	  }
+  );
+
+});
+
+</script>
+<div class="container">
+<div class="clearfix">
+<div class="fl lm_lban" id="mm1">
+<div class="lm_top"><span>新闻资讯</span></div>
+<div class="navdh"><ul class="clearfix"><li><a href="http://wlw.mas.gov.cn/4716613.html" title="文旅动态">文旅动态</a></li> <li><a href="http://wlw.mas.gov.cn/4716614.html" title="业内动态">业内动态</a></li> <li><a href="http://wlw.mas.gov.cn/4716615.html" title="行业荣誉">行业荣誉</a></li> <li><a href="http://wlw.mas.gov.cn/4716616.html" title="媒体聚焦">媒体聚焦</a></li> <li class="active"><a href="http://wlw.mas.gov.cn/4716617.html" title="县区动态">县区动态</a></li> <li><a href="http://wlw.mas.gov.cn/4716618.html" title="政务公告">政务公告</a></li></ul></div>
+</div>
+<div class="fr lm_rban" id="mm2">
+<div class="lmy_dqlanmu clearfix">
+<style>
+    .init {
+        background: url();
+        width: 297px;
+        height: 297px;
+    }
+</style>
+<span class="lanmu_tit">县区动态</span>
+<span class="position"><a href="/index.html">首页</a> &gt; <a href="http://wlw.mas.gov.cn/4716604.html" title="新闻资讯">新闻资讯</a> &gt; <a href="http://wlw.mas.gov.cn/4716617.html" title="县区动态">县区动态</a></span>
+</div>
+<div class="navjz">
+<style>
+    .navjz ul li>span {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .navjz ul.docTitle > li {
+        background: none;
+    }
+</style>
+<ul class="docTitle">
+</ul>
+<ul class="doc_list list-4716617">
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9743561.html" target="_blank" title="2019’全国“乡村春晚”走进安徽当涂县">
+<span style="color:;">2019’全国“乡村春晚”走进安徽当涂县</span>
+</a>
+<span class="right date">2019-01-11</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9749267.html" target="_blank" title="送福送喜送文化  花山区乡村春晚送到群众家门口">
+<span style="color:;">送福送喜送文化  花山区乡村春晚送到群众家门口</span>
+</a>
+<span class="right date">2019-01-31</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748953.html" target="_blank" title="和县文物局举办消防培训演练活动">
+<span style="color:;">和县文物局举办消防培训演练活动</span>
+</a>
+<span class="right date">2019-01-30</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748940.html" target="_blank" title="花山区图书馆做好“三个一”工作 提高读者满意度">
+<span style="color:;">花山区图书馆做好“三个一”工作 提高读者满意度</span>
+</a>
+<span class="right date">2019-01-30</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748579.html" target="_blank" title="花山区抓好安全督查 让群众过祥和新年">
+<span style="color:;">花山区抓好安全督查 让群众过祥和新年</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748578.html" target="_blank" title="博望区丹阳镇百峰村、黄塘村农家书屋获得全市星级示范农家书屋授牌表彰">
+<span style="color:;">博望区丹阳镇百峰村、黄塘村农家书屋获得全市星级示范农家书屋授牌表彰</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748577.html" target="_blank" title="博望区副区长张四梅慰问困难群众并督查文旅市场安全生产工作">
+<span style="color:;">博望区副区长张四梅慰问困难群众并督查文旅市场安全生产工作</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748575.html" target="_blank" title="博望区文旅体局春节前夕慰问困难群众">
+<span style="color:;">博望区文旅体局春节前夕慰问困难群众</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748573.html" target="_blank" title="雨山区文旅体局党支部开展进社区慰问困难家庭活动">
+<span style="color:;">雨山区文旅体局党支部开展进社区慰问困难家庭活动</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748572.html" target="_blank" title="己亥新春生肖文物图片联展在镇淮楼展出">
+<span style="color:;">己亥新春生肖文物图片联展在镇淮楼展出</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748564.html" target="_blank" title="含山县文旅委开展春节前文化旅游市场安全大检查">
+<span style="color:;">含山县文旅委开展春节前文化旅游市场安全大检查</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748563.html" target="_blank" title="“金猪拱福 年吉画祥”萧县博物馆馆藏年画展在含山博物馆开展">
+<span style="color:;">“金猪拱福 年吉画祥”萧县博物馆馆藏年画展在含山博物馆开展</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9748562.html" target="_blank" title="2019含山春节联欢晚会精彩上演">
+<span style="color:;">2019含山春节联欢晚会精彩上演</span>
+</a>
+<span class="right date">2019-01-29</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9747721.html" target="_blank" title="市、区图书馆联合到社区为农民工赠送杂志">
+<span style="color:;">市、区图书馆联合到社区为农民工赠送杂志</span>
+</a>
+<span class="right date">2019-01-25</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9747574.html" target="_blank" title="花山区下好“六个功夫”开展好新时代文明实践活动">
+<span style="color:;">花山区下好“六个功夫”开展好新时代文明实践活动</span>
+</a>
+<span class="right date">2019-01-25</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9747264.html" target="_blank" title="霸王祠景区走访慰问贫困学生">
+<span style="color:;">霸王祠景区走访慰问贫困学生</span>
+</a>
+<span class="right date">2019-01-24</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9747263.html" target="_blank" title="花山区副区长朱观明指导区文旅体局深化工作作风建设">
+<span style="color:;">花山区副区长朱观明指导区文旅体局深化工作作风建设</span>
+</a>
+<span class="right date">2019-01-24</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9746966.html" target="_blank" title="我市举办文化市场移动执法系统培训班">
+<span style="color:;">我市举办文化市场移动执法系统培训班</span>
+</a>
+<span class="right date">2019-01-23</span> </li>
+<li class="odd">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9746937.html" target="_blank" title="当涂大青山桃花节入选2018安徽省“特色农事节庆”名单">
+<span style="color:;">当涂大青山桃花节入选2018安徽省“特色农事节庆”名单</span>
+</a>
+<span class="right date">2019-01-23</span> </li>
+<li class="even">
+<a class="left" href="http://wlw.mas.gov.cn/4716617/9746936.html" target="_blank" title="当涂县文旅委开展春节期间文化体育市场安全生产检查">
+<span style="color:;">当涂县文旅委开展春节期间文化体育市场安全生产检查</span>
+</a>
+<span class="right date">2019-01-23</span> </li>
+</ul>
+<div class="pagination" id="page_4716617">分页</div>
+<script>
+        Ls.pagination("#page_4716617", function (pageIndex) {
+            location.href = 'http://wlw.mas.gov.cn/content/column/4716617?pageIndex=' + pageIndex;
+        }, {
+            isTotal: true,
+            total: 2138,
+            currPage: (0+1),
+            pageCount:107,
+            param: "pageSize=20"
+        });
+    </script>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="footer">
+<div class="fotnav">
+<a class="num1" href="/4716611.html">网站地图</a>
+<a href="/4716698.html">关于我们</a>
+<a class="page-correction" data-height="400" data-setting="{lock:'true'}" data-title="我要纠错" data-url="/site/tpl/13414222" data-width="500" href="javascript:void(0)">我要纠错</a>
+</div>
+<div class="foot">
+<p>主办单位：马鞍山市文化和旅游委员会<br/>地址：马鞍山市印山东路2009号汇通大厦<span class="p1"></span>联系电话：0555-2333369<span class="p1"></span>邮编：243000<br/>网站标识码：3405000044<span class="p1"></span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34050402000314" target="_blank"><img alt="" class="gaj" height="20" src="/images/ghs.png" width="20"/>皖公网安备 34050402000314号</a><span class="p1"></span>备案号：皖ICP备11015966号<br/></p>
+<div class="bot_ico j-gov" data-setting="{sitecode:'0C9979FD1ED9344BE053012819AC3824'}"></div>
+<div class="bot_jiucuo j-jiucuo" data-setting="{sitecode:3405000044}"></div>
+</div>
+</div>
+<!--统计代码-->
+<span class="j-sitestats" data-setting="{siteId:4716544,isTimes:false}"></span>
+<!--技术支持：龙讯科技-->
+</div>
+<script type="text/javascript">
+window.onload=window.onresize=function(){
+if(document.getElementById("mm2").clientHeight>document.getElementById("mm1").clientHeight){
+document.getElementById("mm1").style.height=document.getElementById("mm2").offsetHeight-30+"px";
+}
+else{
+document.getElementById("mm2").style.height=document.getElementById("mm1").offsetHeight-30+"px";
+}
+}
+</script>
+</body>
+</html>
+2019-01-31 [马鞍山市]送福送喜送文化  花山区乡村春晚送到群众家门口
+http://wlw.mas.gov.cn/4716617/9749267.html
+200
+[**DEBUG**] utf-8
+[**DEBUg**] http://whw.wuhu.gov.cn/List.aspx?pTypeID=111601
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	芜湖市文化委员会
+</title><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="芜湖市文化委员会" name="description"/><meta content="芜湖市文化委员会、芜湖市新闻出版局、新闻出版局、新闻出版" name="keywords"/><link href="css/main.css" rel="stylesheet" type="text/css"/><link href="css/tab_menu.css" rel="stylesheet" type="text/css"/></head>
+<body>
+<form action="List.aspx?pTypeID=111601" id="form1" method="post" name="form1">
+<div>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="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"/>
+</div>
+<div>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="AB3BDE6C"/>
+<input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+<input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="d+DF5fZethFj5F86QnK886ghrrUhkJq22sVqUnpqdxQqyypEYnc665Ce93TAsJ0geT542bDJYx2LKluHSPQ50eAiqBs8by4qWE3jxzC04ZhuKn7jeyxcgDtzbhitjaDGRqkJSA=="/>
+</div>
+<div id="pageAll">
+<div id="top">
+<div id="toppic">
+<embed quality="high" src="flash/topnew.swf" style="width: 989px; height: 163px;" type="application/x-shockwave-flash" wmode="transparent"/>
+</div>
+<div id="nav">
+<a href="Index.aspx">首页</a>
+<a href="List.aspx?pTypeID=110101">文委概况</a>
+<a href="List.aspx?pTypeID=110401">党的建设</a>
+<a href="http://gk.wh.cn/xxgkweb/blue/index.jsp?unit=003010650&amp;type=mulu&amp;xxfl_id=040000&amp;sort=0&amp;name=政策法规">政策法规</a>
+<a href="List.aspx?pTypeID=111601">县区文化</a>
+<a href="List.aspx?pTypeID=110801">文化艺术</a>
+<a href="List.aspx?pTypeID=110601">文化产业</a>
+<a href="List.aspx?pTypeID=111701">新闻出版</a>
+<a href="List.aspx?pTypeID=111801">广播影视</a>
+<a href="List.aspx?pTypeID=110901">资料下载</a>
+<a href="http://wh.ahzwfw.gov.cn/bsdt/workService/list.do?nav=2&amp;serviceObject=bm&amp;itemType=&amp;ssqdDeptCode=34020011010000000000&amp;itemName=%25E8%258A%259C%25E6%25B9%2596%25E5%25B8%2582%25E6%2596%2587%25E5%258C%2596%25E5%25A7%2594%25E5%2591%2598%25E4%25BC%259A" style="background: none; width: 87px">办事指南</a>
+</div>
+<div id="biaoti">
+<p style="width: 300px">
+<span style="float: left; margin-left: 45px; color: black; font-size: 12px; line-height: 35px">
+<!--<script language="JavaScript" type="text/javascript">
+				                    
+				                    calendar = new Date();
+				                    day = calendar.getDay();
+				                    month = calendar.getMonth();
+				                    date = calendar.getDate();
+				                    year = calendar.getYear();
+				                    if (year< 100) year = 1900 + year;
+				                    cent = parseInt(year/100);
+				                    g = year % 19;
+				                    k = parseInt((cent - 17)/25);
+				                    i = (cent - parseInt(cent/4) - parseInt((cent - k)/3) + 19*g + 15) % 30;
+				                    i = i - parseInt(i/28)*(1 - parseInt(i/28)*parseInt(29/(i+1))*parseInt((21-g)/11));
+				                    j = (year + parseInt(year/4) + i + 2 - cent + parseInt(cent/4)) % 7;
+				                    l = i - j;
+				                    emonth = 3 + parseInt((l + 40)/44); 
+				                    edate = l + 28 - 31*parseInt((emonth/4));
+				                    emonth--;
+				                    var dayname = new Array ("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+				                    var monthname =
+				                    new Array ("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月" );
+				                    document.write(year +"年");
+				                    document.write(monthname[month]);
+				                    document.write(date + "日"+" ");
+				                    document.write(dayname[day]);
+				                    
+                                    </script>-->
+<script type="text/javascript">
+						    var d = new Date();
+						    document.write("今天是：" + d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日" + " 星期" + "日一二三四五六".charAt(d.getDay()));
+						</script>
+</span>
+</p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr style="width: 436px; height: 35px">
+<td style="width: 25px">
+<img alt="" src="image/bg_search1.png"/>
+</td>
+<td style="width: 45px; text-align: left">
+                    关键字
+                </td>
+<td height="25px" width="160px">
+<input class="h_t_ss" id="HeadPage1_Tb_Search" name="HeadPage1$Tb_Search" style="width:150px;" type="text"/>
+</td>
+<td style=" margin-right:10px;" width="140px">
+<input id="HeadPage1_ImageButton" name="HeadPage1$ImageButton" src="image/sousuo1.jpg" style="border-width:0px;" type="image"/>
+<input id="HeadPage1_ImageButton1" name="HeadPage1$ImageButton1" src="image/btn_Bsearch.jpg" style="border-width:0px;" type="image"/>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="listbox">
+<div id="left_list">
+<div id="left_fl">
+<p>
+<span id="LeftPage1_TypeName">县区文化</span>
+</p>
+<ul id="LeftPage1_LeftType"><li><a href="List.aspx?pTypeID=111601" title="县区文化">县区文化</a></li></ul>
+</div>
+<div id="left_wsbs">
+<p>
+<span>网上办事大厅</span>
+</p>
+<div id="left_banshi">
+<ul style="float: left; width: 222px; height: 63px; margin-top: 5px;">
+<li style="float: left; width: 90px; height: 63px; margin-left: 13px"><a href="LeaveAdd.aspx">
+<img src="image/zhurenxinxiang.jpg"/></a></li>
+<li style="float: left; width: 90px; height: 63px; margin-left: 13px"><a href="List.aspx?pTypeID=110901">
+<img src="image/ziliaoxiazai.jpg"/></a></li>
+</ul>
+<ul style="float: left; width: 222px; height: 21px;">
+<li style="float: left; font-size: 13px; line-height: px; width: 90px; height: 21px;
+                    margin-left: 13px">主任信箱</li>
+<li style="float: left; font-size: 13px; line-height: px; width: 90px; height: 21px;
+                    margin-left: 13px">资料下载</li>
+</ul>
+<ul style="float: left; width: 222px; height: 63px; margin-top: 10px;">
+<li style="float: left; width: 90px; height: 63px; margin-left: 13px"><a href="SurveyList.aspx">
+<img src="image/minyizhengji.jpg"/></a></li>
+<li style="float: left; width: 90px; height: 63px; margin-left: 13px"><a href="http://www.smxs.gov.cn/smts.asp?st=%CE%C4%CE%AF%5D&amp;Submit=%B5%E3%BB%F7%B2%E9%D1%AF">
+<img src="image/wangshangtousu.jpg"/></a></li>
+</ul>
+<ul style="float: left; width: 222px; height: 21px;">
+<li style="float: left; font-size: 13px; line-height: px; width: 90px; height: 21px;
+                    margin-left: 13px">民意征集</li>
+<li style="float: left; font-size: 13px; line-height: px; width: 90px; height: 21px;
+                    margin-left: 13px">网上投诉</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="right">
+<div class="daohang_lb">
+<p hidden="" id="BigTypeName">县区文化</p>
+<span id="Daohang" style=" display:none;"><a href="Index.aspx">首页</a> 〉县区文化 〉<a href="List.aspx?pTypeID=111601">县区文化</a></span>
+</div>
+<div class="listcontent" style="float: left;">
+<ul id="list">
+<li><a href="Content.aspx?pSysID=5749" target="_blank">
+                                    无为县2018年农家书屋多篇征文获得省级表彰
+                                    2019-01-31</a> <span>
+                                        2019-01-31</span></li>
+<li><a href="Content.aspx?pSysID=5748" target="_blank">
+                                    繁昌县举办乡村文艺晚会
+                                    2019-01-30</a> <span>
+                                        2019-01-30</span></li>
+<li><a href="Content.aspx?pSysID=5746" target="_blank">
+                                    无为县举办农民文化乐园新春联欢会
+                                    2019-01-29</a> <span>
+                                        2019-01-29</span></li>
+<li><a href="Content.aspx?pSysID=5744" target="_blank">
+                                    芜湖县湾沚镇“迎春送福”送对联
+                                    2019-01-25</a> <span>
+                                        2019-01-25</span></li>
+<li><a href="Content.aspx?pSysID=5741" target="_blank">
+                                    三山区节前深入开展文化出版市场安全大检查
+                                    2019-01-24</a> <span>
+                                        2019-01-24</span></li>
+<li><a href="Content.aspx?pSysID=5739" target="_blank">
+                                    弋江区2019年“送戏进万村”询价招标工作顺利完成
+                                    2019-01-22</a> <span>
+                                        2019-01-22</span></li>
+<li><a href="Content.aspx?pSysID=5738" target="_blank">
+                                    鸠江区多部门联合检查文化娱乐场所 
+                                    2019-01-22</a> <span>
+                                        2019-01-22</span></li>
+<li><a href="Content.aspx?pSysID=5737" target="_blank">
+                                    无为县开展“送文化年货”活动
+                                    2019-01-22</a> <span>
+                                        2019-01-22</span></li>
+<li><a href="Content.aspx?pSysID=5733" target="_blank">
+                                    鸠江区文化馆开展进社区送春联活动
+                                    2019-01-18</a> <span>
+                                        2019-01-18</span></li>
+<li><a href="Content.aspx?pSysID=5729" target="_blank">
+                                    繁昌县文化馆举行公益班汇报演出暨2018年优秀团队颁奖仪式
+                                    2019-01-15</a> <span>
+                                        2019-01-15</span></li>
+<li><a href="Content.aspx?pSysID=5725" target="_blank">
+                                    镜湖区文广新局节前慰问单位职工遗属及 "双联系"困难户
+                                    2019-01-08</a> <span>
+                                        2019-01-08</span></li>
+<li><a href="Content.aspx?pSysID=5718" target="_blank">
+                                    繁昌县文广新局召开文体协管员座谈会
+                                    2018-12-27</a> <span>
+                                        2018-12-27</span></li>
+<li><a href="Content.aspx?pSysID=5715" target="_blank">
+                                    芜湖县提前谋划2019年“送戏进万村”工作
+                                    2018-12-21</a> <span>
+                                        2018-12-21</span></li>
+<li><a href="Content.aspx?pSysID=5713" target="_blank">
+                                    镜湖区连续第三次蝉联“安徽省民间文化艺术之乡”荣誉称号
+                                    2018-12-21</a> <span>
+                                        2018-12-21</span></li>
+<li><a href="Content.aspx?pSysID=5712" target="_blank">
+                                    鸠江区召开文化市场执法培训会
+                                    2018-12-20</a> <span>
+                                        2018-12-20</span></li>
+<li><a href="Content.aspx?pSysID=5704" target="_blank">
+                                    无为县各级公共文化场所积极筹备元旦春节民生文化活动
+                                    2018-12-14</a> <span>
+                                        2018-12-14</span></li>
+</ul>
+<div>
+<div id="Wpg_NewList" style="height:27px;width:100%;">
+<table border="0" cellpadding="0" cellspacing="0" style="height:27px;" width="100%">
+<tr>
+<td align="center" nowrap="true" style="width:0px;" valign="bottom"></td><td align="center" class="" nowrap="true" style="width:0px;" valign="bottom"><a disabled="true"> 首页 </a><a disabled="true"> 上一页 </a><font style="font-weight:Bold;color:red;">[1]</font><a href="javascript:__doPostBack('Wpg_NewList','2')" title="转到第2页">[2]</a><a href="javascript:__doPostBack('Wpg_NewList','3')" title="转到第3页">[3]</a><a href="javascript:__doPostBack('Wpg_NewList','4')" title="转到第4页">[4]</a><a href="javascript:__doPostBack('Wpg_NewList','5')" title="转到第5页">[5]</a><a href="javascript:__doPostBack('Wpg_NewList','6')" title="转到第6页">[6]</a><a href="javascript:__doPostBack('Wpg_NewList','7')" title="转到第7页">...</a><span style="width:0px;"></span><a href="javascript:__doPostBack('Wpg_NewList','2')" title="转到第2页"> 下一页 </a><a href="javascript:__doPostBack('Wpg_NewList','45')" title="转到第45页"> 尾页 </a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="ffoot">
+<p>
+<ul>
+<a href="List.aspx?pTypeID=110901">资料下载</a>
+<a href="LeaveAdd.aspx">公众留言</a>
+<a href="SurveyList.aspx">民意征集</a>
+<a href="mailto:ahwhwhw@yahoo.com.cn">联系我们</a>
+</ul>
+</p>
+</div>
+<div id="ffoot1">
+<div id="sydw" style="float:left;">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/13/207/0000/40657163/CA132070000406571630001.js ' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<ul style=" text-align:center; width: 987px;">
+<li>  主办：芜湖市文化委员会  承办：芜湖市文化委员会办公室</li>
+</ul>
+<br/>
+<ul style="text-align:center; width: 987px;">
+<li>通信地址：安徽省芜湖市政通路66号  邮编：241000  电话：0553－3991569</li>
+</ul>
+<div style="margin:0 auto; padding:20px 0;">
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34020702000331 
+
+" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" target="_blank"><img src="images/batb.jpg" style="float:left;"/>
+<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:black;">皖公网安备 34020702000331号 皖ICP备05013598号-1 网站标识码：3402000045</p></a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+</form>
+</body>
+</html>
+
+2019-01-31 [芜湖市]无为县2018年农家书屋多篇征文获得省级表彰
+http://whw.wuhu.gov.cn/Content.aspx?pSysID=5749
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wlw.tl.gov.cn/6247/6248/6249/
+200
+[**DEBUG**] utf-8
+[**DEBUg**] http://wgxj.chizhou.gov.cn/content/channel/56d555c7a70f2ed08554ff17/
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgxj.anqing.gov.cn/15021221.html
+200
+[**DEBUG**] ISO-8859-1
+[**DEBUg**] http://wgxj.xuancheng.gov.cn/content/channel/56668588c6852ad6717e6d9e/
+200
+[**DEBUG**] UTF-8
+[**DEBUg**] http://whw.huangshan.gov.cn/Content/showList/JA022/16276/1/page_1.html?menu=16274&loc=8
+2019-01-31 [安徽省图书馆]我馆通过2018年度质量管理体系监督审核
+http://www.ahlib.com/v-AhLibWeb-zh_CN-/AhLibWeb/main/mainActivity.w?url=../news/newsDetail.w&id=41061
