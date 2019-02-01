@@ -55,19 +55,16 @@ def write_html(msg):
 		new_img_tag.string = ""
 		new_h3_tag.append(new_img_tag)
 		
+		new_p_tag = soup.new_tag('span')
+		new_p_tag.string = date
+		new_li_tag.append(new_p_tag)
 		new_a_tag = soup.new_tag("a", href=url, target='_blank')
 		new_a_tag.string = title
 		new_h3_tag.append(new_a_tag)
 		
 		new_li_tag.append(new_h3_tag)
-			
-		
-		new_p_tag = soup.new_tag('p')
-		new_p_tag.string = "安徽省文化厅&bnsp;&bnsp;"+date
-		new_li_tag.append(new_p_tag)
 		
 		original_tag.append(new_li_tag)
-		
 		
 	print(soup)
 
