@@ -21,12 +21,12 @@ Ubuntu 16.04 + Python 3.x
 
 ### 框架说明
 
-本应用采用自建爬虫框架，主要由三部分构成：
+采用自建爬虫框架，主要由三部分构成：
 
 #### 1. webmonkey.py  
 通用模块，即 webmonkey.py，负责建立并返回联接到指定url的响应对象，打印提取信息等。目前，Webmonkey类封装了三个函数：
 - **init()**， 负责初始化 Webmonkey类。
-- **get_obj()**，负责获取 指定url的页面响应对象。
+- **get_obj()**，负责获取指定url的页面响应对象。
 - **print_msg()**，负责打印信息。
 
 #### 2. xxxweb.py
