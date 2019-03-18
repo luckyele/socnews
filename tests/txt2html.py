@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import os 
 import pdb
 import time
-import itchat
 
 import sys
 import os
@@ -13,7 +12,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append('../utils/')
 
 FILE = 'msg.txt'
-HTML = '../templates/base_qzone.html'
+HTML = '../templates/base2.html'
 HTML2 = 'ahcnews%s.html'%time.strftime("%Y%m%d")
 
 def get_msg(f):
@@ -45,21 +44,26 @@ def write_html(msg):
 
 	soup = BeautifulSoup(f.read(), "html.parser")
 	f.close()
-	original_tag = soup.find("div", class_="box")
+	original_tag = soup.find("div").ul
 
 	for title, url, date in msg:
 		new_li_tag = soup.new_tag("li")
-		new_li_tag['style'] = li_attrs
-
-		new_a_tag = soup.new_tag("a", href=url)
-		new_a_tag['style'] = a_attrs
-
-		new_span_tag = soup.new_tag("span")
-		new_span_tag.string = date
-		new_a_tag.string = title
 		
-		new_li_tag.append(new_a_tag)
-		new_li_tag.a.insert_after(new_span_tag)
+		new_h3_tag = soup.new_tag("h3")
+		
+		new_img_tag = soup.new_tag("img")
+		new_img_tag.string = ""
+		new_h3_tag.append(new_img_tag)
+		
+		new_p_tag = soup.new_tag('span')
+		new_p_tag.string = date
+		new_li_tag.append(new_p_tag)
+		new_a_tag = soup.new_tag("a", href=url, target='_blank')
+		new_a_tag.string = title
+		new_h3_tag.append(new_a_tag)
+		
+		new_li_tag.append(new_h3_tag)
+		
 		original_tag.append(new_li_tag)
 		
 	print(soup)
