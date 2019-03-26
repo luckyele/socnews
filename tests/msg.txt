@@ -1,25 +1,24 @@
-2019-03-13 [省厅]湘鄂赣皖四省公共图书馆联盟2019年工作会议在长沙召开
-http://www.ahwh.gov.cn/zwgk/bmdt/stgz/58448.shtml
-2019-03-12 [亳州市]市文物处赴城父镇开展田野文物安全巡查工作
-http://www.bzwhly.gov.cn/zw/html/190312105722.html
-2019-03-13 [宿州市]宿州市文化和旅游局召开全市文化民生工程推进会
-http://wgxlj.ahsz.gov.cn/14245213/52221857.html
-2019-01-14 [蚌埠市]2018年度蚌埠市文广新局网站工作年度报表
-http://wgxj.bengbu.gov.cn/sitefiles/services/cms/page.aspx?s=1&n=9&c=6543
-2019-03-15 [阜阳市]市文化馆党员文化志愿服务小分队走进颍泉区行流镇
-http://wgx.fy.gov.cn//content/detail/5c8b65d27f8b9a782f8b4574.html
-2019-03-15 [淮南市]“两会”整治见成效，捣毁三个“黑广播”
-http://wgx.huainan.gov.cn/13383110/111701527.html
-HTTPConnectionPool(host='wgxj.chuzhou.gov.cn', port=80): Max retries exceeded with url: /5157383.html (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7f53fb158748>: Failed to establish a new connection: [Errno 110] Connection timed out',))
-2019-03-15 [马鞍山市]博望区开展“畅游书海，享受阅读”的读书活动
-http://wlw.mas.gov.cn/4716617/9767026.html
-2019-03-14 [芜湖市]“文化搭台  民生唱戏”      芜湖县创新举措推动文化惠民工程
-http://whw.wuhu.gov.cn/Content.aspx?pSysID=5782
-2019-03-15 [安庆市]市少儿图书馆开展图书剔旧工作
-http://wgxj.anqing.gov.cn/15021221/60095844.html
-2019-03-15 [宣城市] 宣城市文旅局组织开展3.15国际消费者权益日宣传咨询活动
-http://wgxj.xuancheng.gov.cn/content/detail/5c8b4e4020f7fefbdf8b456a.html
-2019-03-07 [黄山市]乡村春晚迎新岁  全民同乐倡新风
-http://whw.huangshan.gov.cn/Content/show/JA022/16276/1/1053973.html
-2019-03-15 [安徽省图书馆]安徽省图书馆2019年广告宣传品制作安装项目竞争性磋商邀请函
-http://www.ahlib.com/v-AhLibWeb-zh_CN-/AhLibWeb/main/mainActivity.w?url=../news/newsDetail.w&id=41356
+2019-03-26 [省厅]安徽省书画院召开2019年创作动员会
+http://www.ahwh.gov.cn/zwgk/bmdt/stgz/58515.shtml
+2019-03-26 [亳州市]亳州市“扫黄打非”在行动
+http://www.bzwhly.gov.cn/zw/html/190326084013.html
+2019-03-18 [宿州市]宿州市图书馆邀请朔州市图书馆张猛馆长来宿州进行学术交流活动
+http://wgxlj.ahsz.gov.cn/14245213/53383954.html
+2019-03-18 [蚌埠市]趣味小实验 科学大道理
+http://wgxj.bengbu.gov.cn/sitefiles/services/cms/page.aspx?s=1&n=9&c=6633
+2019-03-26 [阜阳市]梅奎万到临泉县开展农村文化建设调研
+http://wgx.fy.gov.cn//content/detail/5c997be27f8b9a4e188b458b.html
+2019-03-26 [淮南市]馆校联合志愿行，倡捐图书显温情
+http://wgx.huainan.gov.cn/13383110/113783467.html
+2019-03-25 [马鞍山市]雨山区格林社区农家书屋开展“书香润心灵，促成长”读书活动
+http://wlw.mas.gov.cn/4716617/9769660.html
+2019-03-25 [芜湖市]“情暖童心”系列活动走进繁昌县博物馆
+http://whw.wuhu.gov.cn/Content.aspx?pSysID=5788
+2019-03-26 [安庆市]安庆市独秀园组织开展消防安全培训
+http://wgxj.anqing.gov.cn/15021221/61568420.html
+2019-03-26 [宣城市]我市获得全省旅游安全目标管理考核先进单位称号
+http://wgxj.xuancheng.gov.cn/content/detail/5c99ee0220f7feec1c8b4d67.html
+2019-03-19 [黄山市]第四批国家公共文化服务体系示范项目徽州民间文艺展演示范工程首批示范点成果展演圆满落幕
+http://whw.huangshan.gov.cn/Content/show/JA022/16276/1/1054862.html
+2019-03-26 [安徽省图书馆]安图英语沙龙3月30日活动预告
+http://www.ahlib.com/v-AhLibWeb-zh_CN-/AhLibWeb/main/mainActivity.w?url=../news/newsDetail.w&id=41418

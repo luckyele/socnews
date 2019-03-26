@@ -20,6 +20,36 @@
 
 实际上，这个项目一开始时，自己并没有非常明确的总体设计，现在看到目录结构，是在基本功能完成以后逐渐整理得来的，编写时随意性较大，基本是想到什么功能就写到哪里，发现不对时，就对代码进行重构。
 
+```
+├── city_lv
+│   ├── __init__.py
+│   ├── luanweb.py
+│   ├── maanshanweb.py
+│   └── xuanchengweb.py
+├── county_lv
+│   ├── changfengweb.py
+│   └── __init__.py
+├── libraries
+│   ├── ahslibweb.py
+│   └── __init__.py
+├── LICENSE
+├── province_lv
+│   ├── anhuiweb.py
+│   └── __init__.py
+├── README.md
+├── templates
+│   ├── base.html
+├── tests
+│   ├── index.html
+│   ├── msg.txt
+│   ├── send_msg.py
+│   ├── send.sh
+│   ├── test.py
+│   └── txt2html.py
+└── utils
+    └── webmonkey.py
+```
+
 虽然没有什么明确应该是什么样的，但对项目的核心功能相对清楚，就是从各个文化机构的网站抓取信息。
 
 具体实现时，每个数据源对应一个独立的爬虫程序，然后在一个总的调度程序中循环调用。
